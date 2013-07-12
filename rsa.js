@@ -3,7 +3,7 @@
 // Version 1.1: support utf-8 encoding in pkcs1pad2
 
 // convert a (hex) string to a bignum object
-var BigInteger = require('jsbn');
+var BigInteger = require('jsbn').BigInteger;
 var SecureRandom = require('rng');
 
 function parseBigInt(str,r) {

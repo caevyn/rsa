@@ -6,7 +6,9 @@
   "keywords": [
        "rsa"    
   ],
-  "dependencies": {"caevyn/rng": "*", "caevyn/jsbn": "*"},
+  "dependencies": {
+    "caevyn/rng": "*", 
+    "caevyn/jsbn": "*"},
   "development": {},
   "license": "BSD",
   "main":"rsa.js",
